@@ -1,0 +1,52 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+.venv/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+
+# -----------------------------
+# Large Dataset (DO NOT PUSH)
+# -----------------------------
+data/raw/images/
+
+# Processed Data
+data/processed/
+
+# Chroma Vector DB
+data/chroma_db/
+
+# Trained Models
+models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# Logs
+logs/
+
+# Outputs
+outputs/
